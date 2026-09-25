@@ -33,7 +33,7 @@ mvn test-compile
 mvn clean test
 ```
 
-> Note: the live endpoint is currently returning **HTTP 502 Bad Gateway**, so the test fails at the status-code assertion until the service recovers. You can check the endpoint independently:
+> Note: the live endpoint is currently returning **HTTP 502 Bad Gateway**, so the test fails until the service recovers. You can check the endpoint independently:
 >
 > ```bash
 > curl -i 'https://fakerapi.it/api/v2/persons?_quantity=10&_gender=male&_birthday_start=1990-01-01&_birthday_end=2000-12-31'
