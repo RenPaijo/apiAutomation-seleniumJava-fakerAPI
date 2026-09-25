@@ -73,4 +73,4 @@ README.md
   mvn allure:report
   ```
   Open `target/site/allure-maven-plugin/index.html` in a browser.
-- Test evidence link: [Bukti test (Google Drive)](https://drive.google.com/file/d/1b7yjQiEHjSgZRX4yrExm2PUPin2c_sGk/view?usp=sharing)
+- Test evidence link: [Screen record test](https://drive.google.com/file/d/1b7yjQiEHjSgZRX4yrExm2PUPin2c_sGk/view?usp=sharing)
